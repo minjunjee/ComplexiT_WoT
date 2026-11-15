@@ -1,0 +1,14 @@
+remote_out/
+logs/
+data/
+out/
+__pycache__/
+*.pyc
+.DS_Store
+# 실행 상태를 주고받는 파일(내용이 계속 바뀐다)
+scripts/REQUEST
+scripts/SYNC
+scripts/COMMIT_MSG
+# 서버 주소와 계정 이름이 들어 있다. 공개 저장소에는 올리지 않는다(주소를 따로 빼는 대로 올린다).
+scripts/go.sh
+_to_delete/
